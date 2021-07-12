@@ -5,7 +5,7 @@ import Product from '../Product/Product'
 
 
 const Shop = () => {
-    const first10 = fakeData.slice(0,5);
+    const first10 = fakeData.slice(0,4);
     const [products] = useState(first10);
     return (
         

@@ -8,14 +8,14 @@ const product = (props) => {
     return (
         <div className='product'>
             <div>
-                <img src={img} alt="" />
+                <img src={img} alt="" className="product-img" />
             </div>
             <div>
                 <h4 className='product-name'>{name}</h4>
                 
-                <p><small>by:{seller}</small></p>
-                <p><small>${price}</small></p>
-                <p><small>Only {stock} left in stock. order soon.</small></p>
+                <p><small>by: <b>{seller}</b></small></p>
+                <p><small><b>$  {price}</b></small></p>
+                <p><small>Only<b><i> {stock}</i></b> left in stock. order soon.</small></p>
                 <button className='main-button'> <FontAwesomeIcon icon={faShoppingCart} /> add to cart</button>
             </div>
         </div>

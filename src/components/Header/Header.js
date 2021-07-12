@@ -9,6 +9,9 @@ const Header = () => {
                 <a href="/review">Order Review</a>
                 <a href="/manage">Manage Inventory</a>
             </nav>
+            <div className="search-bar">
+                <input type="search" name="search" placeholder="Search your goods" id="" />
+            </div>
         </div>
     );
 };

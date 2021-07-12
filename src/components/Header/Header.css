@@ -17,6 +17,20 @@ nav a{
 }
 nav a:hover{
     background-color: wheat;
-    transition: .7s;
+    transition: 1s;
     color: black;
+    border-radius: 5px;
+}
+.search-bar{
+    background-color: black;
+    line-height: 50px;
+
+}
+input{
+    width: 50%;
+    float: center;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid rgba(219, 243, 7, 0.753);
 }
